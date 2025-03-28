@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -314,6 +314,344 @@ media management
     <script>
       var typed = new Typed("#element", {
         strings: ["Learner", "Tech Enthusiast", "Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tushar Chauhan Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        /* background-color: rgb(99, 98, 98); */
+        background-color: rgb(3, 3, 3);
+        color: yellowgreen;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        /* background-color: rgb(0, 0, 0); */
+        background-color: rgb(221, 216, 221);
+      }
+      nav ul {
+        display: flex;
+        justify-content: space-around;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 24px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(187, 214, 30);
+        font-size: 1.01rem;
+      }
+      main hr {
+        background: purple;
+        height: 2px;
+        border: 0;
+        margin: 40px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+      .rightsection img {
+        width: 90%;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      .text-gray {
+        color: rgb(96, 20, 20);
+      }
+      #element {
+        color: blueviolet;
+      }
+      .section {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .section h1 {
+        font-size: 1.9rem;
+      }
+      .section .vertical {
+        height: 85px;
+        width: 2px;
+        background-color: rgb(246, 253, 255);
+        margin: 0 250px;
+      }
+      .section .box {
+        margin: 56px 0;
+        background: rgb(235, 233, 233);
+        height: 2px;
+        width: 80vw;
+        display: flex;
+      }
+      .image-top {
+        width: 40px;
+        position: relative;
+        top: -48px;
+        left: -15px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 56px;
+        left: -47px;
+        width: 250px;
+        font-size: 19px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 70px;
+        width: 250px;
+        left: -45px;
+        color: darkviolet;
+        font-size: smaller;
+      }
+
+      footer {
+        background-color: rgb(221, 216, 221);
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .footer-right {
+        text-align: center;
+        color: rgb(131, 35, 35);
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Tushar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/tusharchauhann/">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="https://github.com/Tusharchauhann">Projects</a></li>
+            <li><a href="mailto:ankurchau4@gmail.com">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi My name is <span class="purple">Tushar</span>
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="try.png" alt="" srcset="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="section secondSection">
+        <span class="text-gray">What I have Done so far</span>
+        <h1>Past Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="social.png" alt="" />
+            <div class="vertical-text">Java Developer January 2025 - Present</div>
+            <div class="vertical-desc">
+              Ernst and Young Gurugram - Converting client/user requirements into technical specifications and managing Java code bases.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-text">AWS Data Analytics Virtual Internship May - July 2023</div>
+            <div class="vertical-desc">
+              AICTE-Eduskills Online - Advanced skills in data analytics within the AWS Environment.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="cyber.png" alt="" />
+            <div class="vertical-text">Palo Alto Cybersecurity Virtual Internship April 2024 - June 2024</div>
+            <div class="vertical-desc">
+              AICTE-Eduskills Online - Learned fundamentals of Security Operations Center (SOC) and basics of Network & Cloud Security.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section thirdSection">
+        <h1>Education</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="srm.png" alt="" />
+            <div class="vertical-text">SRM Institute of Science and Technology 2021-2025</div>
+            <div class="vertical-desc">
+              Bachelor of Technology in Computer Science and Engineering
+            </div>
+            <div class="vertical-desc">
+              CGPA: 9.17
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ryan.png" alt="" />
+            <div class="vertical-text">Ryan International School 2020-2021</div>
+            <div class="vertical-desc">
+              Intermediate (CBSE) - 80%
+            </div>
+            <div class="vertical-desc">
+              High School (CBSE) - 76.6%
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section fourthSection">
+        <h1>Projects</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="project.png" alt="" />
+            <div class="vertical-text">Dubbing English Videos to Regional Languages</div>
+            <div class="vertical-desc">
+              A software for dubbing videos from English to Indian regional languages with simple, understandable voiceovers.
+            </div>
+            <div class="vertical-desc">
+              Technologies: Python, Web, Bootstrap
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="weather.png" alt="" />
+            <div class="vertical-text">Mausam24 - The Weather App</div>
+            <div class="vertical-desc">
+              A weather application providing real-time weather information for any location.
+            </div>
+            <div class="vertical-desc">
+              Technologies: HTML, CSS, JS, OpenWeatherMap API
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="music.png" alt="" />
+            <div class="vertical-text">Spotify Clone</div>
+            <div class="vertical-desc">
+              A music player clone for searching, discovering, and playing trending music and podcasts.
+            </div>
+            <div class="vertical-desc">
+              Technologies: CSS, HTML, API
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section fifthSection">
+        <h1>Certifications</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="cert.png" alt="" />
+            <div class="vertical-text">Database Management System SQL</div>
+            <div class="vertical-desc">
+              Certification from NPTEL
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="cert.png" alt="" />
+            <div class="vertical-text">Fundamentals of Agile Project Management</div>
+            <div class="vertical-desc">
+              Certification from Project Management Institute
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="cert.png" alt="" />
+            <div class="vertical-text">Advanced Learning Algorithms</div>
+            <div class="vertical-desc">
+              Certification from Coursera
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Tushar's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/">Home</a></li>
+                    <li><a href="https://drive.google.com/file/d/1u9Vv15Ehs0Y3oHE3mTzBKN5K0P6g27uX/view?usp=drive_link">Resume</a></li>
+                    <li><a href="https://github.com/Tusharchauhann">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/tusharchauhann/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://www.instagram.com/tushar.chauhann/">Instagram</a></li>
+                    <li><a href="https://twitter.com/ankurchau18">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/tushar.chauhan.77312/">Facebook</a></li>
+                    <li><a href="https://leetcode.com/ankurchau4/">Leetcode</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="tel:+919958907104">Phone: +91-9958907104</a></li>
+                    <li><a href="mailto:ankurchau4@gmail.com">Mail: ankurchau4@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            Copyright &#x2117; tusharportfolio.com || All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Tech Enthusiast", "Programmer"],
         typeSpeed: 50,
       });
     </script>
